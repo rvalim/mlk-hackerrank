@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // process.stdin.resume();
 // process.stdin.setEncoding('utf-8');
-var readStream = fs.createReadStream('C:/Projetos/Hackerrank/hashTable/sherlockAnagrams.txt', 'utf8');
+var readStream = fs.createReadStream('D:/Projetos/MlkHackerrank/hashTable/sherlockAnagrams.txt', 'utf8');
 let data = ''
 let inputString = '';
 let currentLine = 0;
@@ -27,53 +27,43 @@ function readLine() {
 
 // Complete the checkMagazine function below.
 function sherlockAndAnagrams(s) {
-    console.log(s);
+    // console.log(s);
     let arr = s.split('');
-    // let chars = [];
     let keys = [];
     let qtde = 0;
-
-    // for (let i = 0; i < arr.length; i++) {
-    //     let p = arr[i];
-
-    //     if (chars[p] === undefined)
-    //         chars[p] = 1
-    //     else {
-    //         chars[p]++;
-    //         qtde++;
-    //     }
-    // }
-
-    // if (!qtde) return qtde;
 
     for(let i = 0; i < arr.length; i++)
     {
         let key = []
         key.push(arr[i]);
-        qtde += addKey(key, keys);
+        addKey(key, keys);
 
         for (let j = i + 1; j < arr.length; j ++){
             key.push(arr[j]);
             let keyStr = key.sort().join('');
-
-            qtde += addKey(keyStr, keys);
+            addKey(keyStr, keys);
         }
     }
 
-    console.log(keys);
-    
+    for(let key in keys){
+        let n = keys[key];
+        if (n == 1) continue;
+        qtde += factorial(n) / (2 * factorial(n-2));
+    };
+
     return qtde;
+}
+
+function factorial(n){
+    if (n <= 1) return 1;
+    return n * factorial(n-1);
 }
 
 function addKey(key, keys){
     if (keys[key] === undefined)
         keys[key] = 1
-    else {
+    else
         keys[key]++;
-        return 1;
-    }
-
-    return 0;
 }
 
 function main() {
