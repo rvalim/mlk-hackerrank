@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/array-left-rotation/problem
 
 // Complete the rotLeft function below.
 function rotLeft(a, d) {

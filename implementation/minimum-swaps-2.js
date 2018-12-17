@@ -1,3 +1,4 @@
+//https://www.hackerrank.com/challenges/minimum-swaps-2/problem
 'use strict';
 
 const fs = require('fs');
@@ -40,7 +41,7 @@ function minimumSwaps(arr) {
 
             arr[i] = arr[j];
             arr[j] = x;
-console.log(x, i, j, arr);
+
             n++;
         }
     }
