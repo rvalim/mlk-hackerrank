@@ -1,3 +1,5 @@
+//https://www.hackerrank.com/challenges/new-year-chaos/problem
+
 'use strict';
 
 process.stdin.resume();
