@@ -1,4 +1,5 @@
 //https://www.hackerrank.com/challenges/ctci-recursive-staircase
+//https://www.youtube.com/watch?v=eVbOxWVC_GY
 let res = {}
 
 function stepPerms(n) {
@@ -12,7 +13,7 @@ function stepPerms(n) {
         const count = stepPerms(n-1) + stepPerms(n-2) + stepPerms(n-3);
         res[n] = count
     }
-    if (n === 5) return res
+    
     return res[n];
 }
 
