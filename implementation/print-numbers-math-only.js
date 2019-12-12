@@ -7,14 +7,14 @@ printAux = (n) => {
     return n;
 }
 
-printBla = (n) => {
+printCharactersByLine = (n) => {
     if (n < 10) return printAux(n);
 
     let x = ((n / 10) | 0);
 
-    printBla(x);
+    printCharactersByLine(x);
 
     return printAux(n % 10);
 }
 
-printBla(y);
+printCharactersByLine(y);
