@@ -38,7 +38,7 @@ class Node {
     constructor(item) {
         this._item = item;
         this._parent = null;
-        this._childs = 0;
+        this._childs = 1;
     }
 
     root(node) {
@@ -48,8 +48,8 @@ class Node {
     }
 
     _moveChildTo(from, destination) {
-        destination._childs += from._childs + 1;
-        from._childs = 0;
+        destination._childs += from._childs;
+        from._childs = 1;
         from._parent = destination;
     }
 
@@ -60,7 +60,7 @@ class Node {
         let child = null;
 
         if (rootThis == rootB){
-            return rootThis.size + 1;
+            return rootThis.size;
         }
         else if (rootThis._childs >= rootB._childs){
             parent = rootThis;
@@ -72,7 +72,7 @@ class Node {
 
         this._moveChildTo(child, parent);
 
-        return parent._childs + 1;
+        return parent._childs;
     }
 }
 
