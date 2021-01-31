@@ -7,7 +7,7 @@ const inputFile = [];
 let inputFileLine = 0;
 
 async function processLineByLine() {
-    const fileStream = fs.createReadStream('C:\\git\\mlk-hackerrank\\greedy\\input1.txt');
+    const fileStream = fs.createReadStream('C:\\git\\mlk-hackerrank\\greedy\\dijkstra-input.txt');
 
     const rl = readline.createInterface({
         input: fileStream,
@@ -29,7 +29,6 @@ function readLine() {
 
 function main() {
     const t = parseInt(readLine(), 10);
-    console.log('ricardo', t, inputFile.length)
 
     for (let tItr = 0; tItr < t; tItr++) {
         const nm = readLine().split(' ');
@@ -57,10 +56,7 @@ function main() {
 function shortestReach(nodes, edges, s) {
     const edgesMapper = {};
     const distances = new Array(nodes + 1).fill(Infinity); // create with 1 more item to avoid index calcs
-    const visitedNodes = new Array(nodes + 1).fill(false);     // create with 1 more item to avoid index calcs
     const previousNodes = new Array(nodes + 1).fill(0);
-
-    visitedNodes[0] = true; // Discarding 0 index
 
     //Mapping all connections
     edges.forEach((elem) => {
@@ -78,13 +74,13 @@ function shortestReach(nodes, edges, s) {
         edgesMapper[destiny][start] = minLen;
     });
 
-    let pq = [];
+    let stack = [];
 
-    pq.push({node: s, weight: 0});
+    stack.push({node: s, weight: 0});
     distances[s] = 0;
 
-    while(pq.length > 0){
-        let curr = pq.pop();
+    while(stack.length > 0){
+        let curr = stack.pop();
         let currNode = curr.node;
 
         Object.keys(edgesMapper[currNode]).forEach(p => {
@@ -94,7 +90,7 @@ function shortestReach(nodes, edges, s) {
             if (alt < distances[neighbor.node]) {
                 distances[neighbor.node] = alt;
                 previousNodes[neighbor.node] = currNode;
-                pq.push(neighbor);
+                stack.push(neighbor);
             }
 
         });
