@@ -1,4 +1,6 @@
 //https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem
+//to traverse a graph in bfs mode, use a queue
+
 'use strict';
 const fs = require('fs');
 const readline = require('readline');
@@ -58,7 +60,6 @@ function shortestReach(nodes, edges, s) {
     const edgesMapper = {};
     const distances = new Array(nodes + 1).fill(-1); // create with 1 more item to avoid index calcs
     const visitedNodes = new Array(nodes + 1).fill(false);     // create with 1 more item to avoid index calcs
-    const previousNodes = new Array(nodes + 1).fill(0);
 
     //First of all - map all connections
     edges.forEach((elem) => {
