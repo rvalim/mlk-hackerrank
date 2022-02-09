@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
+//https://www.hackerrank.com/challenges/jumping-on-the-clouds
 
 function jumpingOnClouds(c) {
     let result = -1;

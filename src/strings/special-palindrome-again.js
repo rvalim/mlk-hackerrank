@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/special-palindrome-again/problem
+//https://www.hackerrank.com/challenges/special-palindrome-again
 
 export function substrCount(str) {
     let n = str.length;

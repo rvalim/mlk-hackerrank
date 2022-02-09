@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/count-triplets-1/problem
+//https://www.hackerrank.com/challenges/count-triplets-1
 
 export function countTriplets(arr, r) {
     // return n * fat(n - 1)

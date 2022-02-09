@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/frequency-queries/problem
+//https://www.hackerrank.com/challenges/frequency-queries
 
 export function freqQuery(queries) {
     let bla = [];

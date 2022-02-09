@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/ctci-ransom-note/problem
+//https://www.hackerrank.com/challenges/ctci-ransom-note
 // Complete the checkMagazine function below.
 export function checkMagazine(magazine, note) {
     let magHash = [];

@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/alternating-characters/problem
+//https://www.hackerrank.com/challenges/alternating-characters
 
 export function alternatingCharacters(s) {
     let count = 0;

@@ -3,7 +3,7 @@ import 'mocha';
 import { MyTest } from '../../utils/myTest';
 import { IInputType } from '../../utils/iInputType';
 
-describe('https://www.hackerrank.com/challenges/mark-and-toys/problem', () => {
+describe('https://www.hackerrank.com/challenges/mark-and-toys', () => {
     const convert = (str: string) => str.split(' ').map((s) => Number(s));
     const input: Array<IInputType> = [
         {

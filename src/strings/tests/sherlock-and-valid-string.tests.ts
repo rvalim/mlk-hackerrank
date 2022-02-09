@@ -3,7 +3,7 @@ import 'mocha';
 import { MyTest } from '../../utils/myTest';
 import { IInputType } from '../../utils/iInputType';
 
-describe('https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem', () => {
+describe('https://www.hackerrank.com/challenges/sherlock-and-valid-string', () => {
     const input: Array<IInputType> = [
         {
             args: ['aabbccddeefghi'],

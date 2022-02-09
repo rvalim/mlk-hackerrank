@@ -4,7 +4,7 @@ import 'mocha';
 import { MyTest } from '../../utils/myTest';
 import { IInputType } from '../../utils/iInputType';
 
-describe('https://www.hackerrank.com/challenges/balanced-brackets/problem', () => {
+describe('https://www.hackerrank.com/challenges/balanced-brackets', () => {
     // return;
     const input = ReadFileText(
         './src/stack-queue/tests/balanced-brackets.input.txt'

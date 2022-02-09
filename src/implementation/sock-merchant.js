@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/sock-merchant/problem
+//https://www.hackerrank.com/challenges/sock-merchant
 
 function sockMerchant(n, ar) {
     let bla = [];

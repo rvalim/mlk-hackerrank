@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach/problem
+//https://www.hackerrank.com/challenges/ctci-bfs-shortest-reach
 
 // Complete the shortestReach function below.
 export function shortestReach(nodes, edges, s) {

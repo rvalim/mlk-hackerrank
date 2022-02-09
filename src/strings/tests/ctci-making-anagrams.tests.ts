@@ -3,7 +3,7 @@ import 'mocha';
 import { MyTest } from '../../utils/myTest';
 import { IInputType } from '../../utils/iInputType';
 
-describe('//https://www.hackerrank.com/challenges/ctci-making-anagrams/problem', () => {
+describe('//https://www.hackerrank.com/challenges/ctci-making-anagrams', () => {
     const input: Array<IInputType> = [
         {
             args: ['cde', 'abc'],

@@ -4,7 +4,7 @@ import 'mocha';
 import { MyTest } from '../../utils/myTest';
 import { IInputType } from '../../utils/iInputType';
 
-describe('https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem', () => {
+describe('https://www.hackerrank.com/challenges/fraudulent-activity-notifications', () => {
     const convert = (str: string) => str.split(' ').map((s) => Number(s));
     const input: Array<IInputType> = [
         {

@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/counting-valleys/problem
+//https://www.hackerrank.com/challenges/counting-valleys
 
 // Complete the countingValleys function below.
 function countingValleys(n, s) {

@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/friend-circle-queries/problem
+//https://www.hackerrank.com/challenges/friend-circle-queries
 
 class Node {
     constructor(item) {

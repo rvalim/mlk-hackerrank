@@ -2,7 +2,7 @@ import { IInputType } from '../../utils/iInputType';
 import { MyTest } from '../../utils/myTest';
 import { checkMagazine } from '../ctci-ransom-note';
 
-describe('https://www.hackerrank.com/challenges/ctci-ransom-note/problem', () => {
+describe('https://www.hackerrank.com/challenges/ctci-ransom-note', () => {
     const input: Array<IInputType> = [
         {
             args: [

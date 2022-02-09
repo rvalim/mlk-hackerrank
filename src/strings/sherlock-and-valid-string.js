@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem
+//https://www.hackerrank.com/challenges/sherlock-and-valid-string
 
 export function isValid(s) {
     let countChar = [];

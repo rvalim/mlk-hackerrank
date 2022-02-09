@@ -3,7 +3,7 @@ import 'mocha';
 import { MyTest } from '../../utils/myTest';
 import { IInputType } from '../../utils/iInputType';
 
-describe('https://www.hackerrank.com/challenges/special-palindrome-again/problem', () => {
+describe('https://www.hackerrank.com/challenges/special-palindrome-again', () => {
     const input: Array<IInputType> = [
         {
             args: ['asasd'],

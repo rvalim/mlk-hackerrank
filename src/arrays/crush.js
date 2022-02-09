@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/crush/problem
+//https://www.hackerrank.com/challenges/crush
 
 // Complete the arrayManipulation function below.
 export function arrayManipulation(n, queries) {

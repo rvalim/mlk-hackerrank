@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/swap-nodes-algo/problem
+//https://www.hackerrank.com/challenges/swap-nodes-algo
 function printTree(root, swapDepth, arr) {
     if (!root) return;
 

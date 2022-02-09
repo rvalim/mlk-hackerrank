@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/two-strings/problem
+//https://www.hackerrank.com/challenges/two-strings
 
 export function twoStrings(s1, s2) {
     let chars = [];

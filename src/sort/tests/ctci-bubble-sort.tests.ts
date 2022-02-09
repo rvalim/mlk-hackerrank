@@ -3,7 +3,7 @@ import 'mocha';
 import { MyTest } from '../../utils/myTest';
 import { IInputType } from '../../utils/iInputType';
 
-describe('https://www.hackerrank.com/challenges/ctci-bubble-sort/problem', () => {
+describe('https://www.hackerrank.com/challenges/ctci-bubble-sort', () => {
     const expected = (swaps: number, first: number, last: number) => {
         return `Array is sorted in ${swaps} swaps.\nFirst Element: ${first}\nLast Element: ${last}`;
     };

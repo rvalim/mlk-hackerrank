@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem
+//https://www.hackerrank.com/challenges/sherlock-and-anagrams
 
 export function sherlockAndAnagrams(s) {
     let arr = s.split('');

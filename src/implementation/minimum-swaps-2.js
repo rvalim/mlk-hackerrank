@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/minimum-swaps-2/problem
+//https://www.hackerrank.com/challenges/minimum-swaps-2
 'use strict';
 
 const fs = require('fs');

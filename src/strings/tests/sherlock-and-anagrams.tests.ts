@@ -3,7 +3,7 @@ import 'mocha';
 import { MyTest } from '../../utils/myTest';
 import { IInputType } from '../../utils/iInputType';
 
-describe('https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem', () => {
+describe('https://www.hackerrank.com/challenges/sherlock-and-anagrams', () => {
     const input: Array<IInputType> = [
         {
             args: ['abba'],

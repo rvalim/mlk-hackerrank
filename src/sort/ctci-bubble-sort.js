@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/ctci-bubble-sort/problem
+//https://www.hackerrank.com/challenges/ctci-bubble-sort
 
 export function countSwaps(a) {
     let count = 0;

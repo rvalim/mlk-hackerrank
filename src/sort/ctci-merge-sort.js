@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/ctci-merge-sort/problem
+//https://www.hackerrank.com/challenges/ctci-merge-sort
 
 function merge(arr, ini, fim, mid) {
     let invertions = 0;

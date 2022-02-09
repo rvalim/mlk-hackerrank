@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/ctci-making-anagrams/problem
+//https://www.hackerrank.com/challenges/ctci-making-anagrams
 
 export function makeAnagram(a, b) {
     let result = 0;

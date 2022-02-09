@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/balanced-brackets/problem
+//https://www.hackerrank.com/challenges/balanced-brackets
 class Stack {
     constructor() {
         this.items = [];

@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/mark-and-toys/problem
+//https://www.hackerrank.com/challenges/mark-and-toys
 export function maximumToys(prices, k) {
     prices.sort((a, b) => a - b);
 

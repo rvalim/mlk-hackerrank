@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/repeated-string/problem
+//https://www.hackerrank.com/challenges/repeated-string
 
 function repeatedString(s, n) {
     let fullRepeatCharacters = Math.floor(n / s.length);

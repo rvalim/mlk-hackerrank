@@ -1,4 +1,4 @@
-//https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem
+//https://www.hackerrank.com/challenges/fraudulent-activity-notifications
 //Using counting sort
 
 function getMedian(count, d) {
