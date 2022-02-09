@@ -2,7 +2,7 @@ import { shortestReach } from '../dijkstra';
 import { ReadFileText } from '../../utils/input';
 import { MyTest } from '../../utils/myTest';
 import { IInputType } from '../../utils/iInputType';
-import { StreamReader } from '../../utils/StreamReader';
+import { StreamReader } from '../../utils/streamReader';
 
 function getArgs(inputFile: string): Array<any> {
     const file = new StreamReader(inputFile);

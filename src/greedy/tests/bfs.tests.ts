@@ -1,7 +1,7 @@
 import { shortestReach } from '../bfs';
 import { MyTest } from '../../utils/myTest';
 import { IInputType } from '../../utils/iInputType';
-import { StreamReader } from '../../utils/StreamReader';
+import { StreamReader } from '../../utils/streamReader';
 import { ReadFileText } from '../../utils/input';
 
 function getArgs(inputFile: string): Array<any> {
